@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a; /* Cor de fundo mais clara */
+  color: #ffffff; /* Cor do texto principal */
+}
+
+header {
+  padding: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #333333;
+}
+
+tbody td {
+  border-top: 1px solid #444;
+}
+
+th, td {
+  padding: 12px; /* Aumento do espaço interno */
+  text-align: left;
+}
+
+th {
+  background-color: #444; /* Cor de fundo do cabeçalho */
+  color: #fff; /* Cor do texto do cabeçalho */
+}
+
+tr:nth-child(even) {
+  background-color: #0c0c0c; /* Cor de fundo das linhas pares */
+}
+
+button {
+  padding: 8px 16px; /* Ajuste no espaçamento interno */
+  background-color: #FFD700; /* Cor de fundo amarela */
+  color: #333; /* Cor do texto do botão */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Adição de transição suave */
+}
+
+button:hover {
+  background-color: #FFC800; /* Cor de fundo amarela mais escura ao passar o mouse */
+}
+

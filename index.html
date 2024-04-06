@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Revisão de Veículos</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Substitua "styles.css" pelo nome do seu arquivo CSS -->
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+
+    <form id="formularioVeiculo">
+      <fieldset>
+        <legend>Cadastro</legend>
+
+        <div>
+          <input type="text" placeholder="Modelo" name="modelo" required="">
+
+          <input type="text" placeholder="Versão" name="versao" required="">
+
+          <input type="text" placeholder="Ano" name="fabricacao">
+
+
+          <button type="submit">Cadastrar Veículo</button>
+        </div>
+      </fieldset>
+    </form>
+
+    <table width="100%">
+      <thead style="text-align: left">
+        <tr>
+          <th>Modelo</th>
+          <th>Fabricação</th> <!-- Alteração feita aqui -->
+          <th>Última revisão</th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+      </tbody>
+    </table>
+
+    <script src="script.js"></script> <!-- Adicionado o script.js -->
+
+
+  </body>
+
+</html>
